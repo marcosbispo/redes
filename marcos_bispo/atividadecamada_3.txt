@@ -1,0 +1,24 @@
+SEÇÃO 4.1
+Questão 01 – Vamos rever um pouco da terminologia usada neste livro. Lembre-se de que o nome de um pacote de camada de transporte é segmento e que o nome de um pacote da camada de enlace é quadro. Qual o nome de um pacote da camada de rede? Lembre - se de que roteadores e comutadores de camada de enlace são denominados comutadores de pacotes. Qual a diferença fundamental entre um roteador e um comutador de camada de enlace? Lembre - se de que usamos o termo roteadores tanto para redes de datagramas quanto para redes de CVS.
+ RES: Na camada de rede um pacote é denominado de datagrama. O comutador de pacotes na camada de rede local ou ethernet é chamado switche, os roteadores conectam os computadores de uma rede à internet por meio de chaveamento intermediário.
+SEÇÃO 4.4
+
+Questão12 -  Roteadores têm endereços IP? Em caso positivo, quantos endereços eles têm? 
+RES :  Sim. O número de endereços IPs é igual ao número de interfaces.
+Questão13 -  Qual é o equivalente binário de 32 bits para o endereço IP 233.1.3.27?
+RES: III0I00I.0000000I.000000II.000II0II
+Questão14 –RES: DNS específico de conexão. . . . . . :
+      Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.56.1
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   Gateway Padrão. . . . . . . . . . . . . . . : 10.17.10.220
+Questão18 –RES:
+Os endereços IPs podem ser atribuídos aos computadores através do DHCP.
+O roteador sem fio usa NAT.
+QUESTÃO 19:
+- Endereçamento: A mudança mais significativa do IPv6 está no endereçamento. O antigo IPv4 possui endereços de 32 bits (4 bytes), já o IPv6 possui 128 bits (16 bytes) para endereçamento.
+ O baixo número de endereços possíveis no IPv4 fez surgir alternativas como o NAT, permitindo que vários computadores em uma LAN utilizassem um único endereço de IP na internet. 
+ Com o endereçamento do IPv6, esse problema está resolvido por conta do altíssimo número de endereços possíveis;
+- Cabeçalhos extensíveis: O IPv6 foi projetado para suportar cabeçalhos adicionais que permitissem a expansão/evolução do protocolo em diferentes cenários.
+Esses cabeçalhos adicionais são encadeados após o cabeçalho padrão do IPv6, possibilitando funcionalidades opcionais. 
+Por conta disso, o campo Options do IPv4 foi aposentado, o qual fazia com que o tamanho do cabeçalho IPv4 variasse de 20 a 24 bytes.
+Dessa forma, o cabeçalho do IPv6 passa a ter tamanho fixo de 40 bytes, o que proporciona maior agilidade no processamento dos roteadores.
