@@ -1,0 +1,32 @@
+ATIVIDADE 05
+
+SEÇÃO 4.1
+Questão 01 – Vamos rever um pouco da terminologia usada neste livro. Lembre-se de que o nome de um pacote de camada de transporte é segmento e que o nome de um pacote da camada de enlace é quadro. Qual o nome de um pacote da camada de rede? Lembre - se de que roteadores e comutadores de camada de enlace são denominados comutadores de pacotes. Qual a diferença fundamental entre um roteador e um comutador de camada de enlace? Lembre - se de que usamos o termo roteadores tanto para redes de datagramas quanto para redes de CVS.
+ RES: Na camada de rede um pacote é denominado de datagrama. O comutador de pacotes na camada de rede local ou ethernet é chamado switche, os roteadores conectam os computadores de uma rede à internet por meio de chaveamento intermediário.
+SEÇÃO 4.4
+
+Questão12 -  Roteadores têm endereços IP? Em caso positivo, quantos endereços eles têm? 
+RES :  Sim. O número de endereços IPs é igual ao número de interfaces.
+Questão13 -  Qual é o equivalente binário de 32 bits para o endereço IP 233.1.3.27?
+RES: III0I00I.0000000I.000000II.000II0II
+Questão14 –RES: DNS específico de conexão. . . . . . :
+Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.56.1
+Máscara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+Gateway Padrão. . . . . . . . . . . . . . . : 10.17.10.220
+Questão18 –RES:
+Os endereços IPs podem ser atribuídos aos computadores através do DHCP.
+O roteador sem fio usa NAT.
+QUESTÃO 19
+RES:
+ Endereçamento: A mudança mais significativa do IPv6 está no endereçamento. O antigo IPv4 possui endereços de 32 bits (4 bytes), já o IPv6 possui 128 bits (16 bytes) para endereçamento. O baixo número de endereços possíveis no IPv4 fez surgir alternativas como o NAT, permitindo que vários computadores em uma LAN utilizassem um único endereço de IP na internet. Com o endereçamento do IPv6, esse problema está resolvido por conta do altíssimo número de endereços possíveis;
+- Cabeçalhos extensíveis: O IPv6 foi projetado para suportar cabeçalhos adicionais que permitissem a expansão/evolução do protocolo em diferentes cenários. Esses cabeçalhos adicionais são encadeados após o cabeçalho padrão do IPv6, possibilitando funcionalidades opcionais. Por conta disso, o campo Options do IPv4 foi aposentado, o qual fazia com que o tamanho do cabeçalho IPv4 variasse de 20 a 24 bytes. Dessa forma, o cabeçalho do IPv6 passa a ter tamanho fixo de 40 bytes, o que proporciona maior agilidade no processamento dos roteadores.
+
+2° RESPOSTA
+1. Roteamento estático: uma rede com um número limitado de roteadores para outras redes pode ser configurada com roteamento estático. Uma tabela de roteamento estático é construída manualmente pelo administrador do sistema, e pode ou não ser divulgada para outros dispositivos de roteamento na rede. Tabelas estáticas não se ajustam automaticamente a alterações na rede, portanto devem ser utilizadas somente onde as rotas não sofrem alterações. Algumas vantagens do roteamento estático são a segurança obtida pela não divulgação de rotas que devem permanecer escondidas; e a redução do overhead introduzido pela troca de mensagens de roteamento na rede.
+
+2. Roteamento dinâmico: redes com mais de uma rota possível para o mesmo ponto devem utilizar roteamento dinâmico. Uma tabela de roteamento dinâmico é construída a partir de informações trocadas entre protocolos de roteamento. Os protocolos são desenvolvidos para distribuir informações que ajustam rotas dinamicamente para refletir alterações nas condições da rede. Protocolos de roteamento podem resolver situações complexas de roteamento mais rápida e eficientemente que o administrador do sistema. Protocolos de roteamento são desenvolvidos para trocar para uma rota alternativa quando a rota primária se torna inoperável e para decidir qual é a rota preferida para um destino. Em redes onde existem várias alternativas de rotas para um destino devem ser utilizados protocolos de roteamento.
+
+3° RESPOSTA:
+O Algoritmo de Dijkstra é um dos algoritmos que calcula o caminho de custo mínimo entre vértices de um grafo. Escolhido um vértice como raiz da busca, este algoritmo calcula o custo mínimo deste vértice para todos os demais vértices do grafo. Ele é bastante simples e com um bom nível de performance. Ele não garante, contudo, a exatidão da solução caso haja a presença de arcos com valores negativos.
+Este algoritmo parte de uma estimativa inicial para o custo mínimo e vai sucessivamente ajustando esta estimativa. Ele considera que um vértice estará fechado quando já tiver sido obtido um caminho de custo mínimo do vértice tomado como raiz da busca até ele. Caso contrário ele dito estar aberto.
+
