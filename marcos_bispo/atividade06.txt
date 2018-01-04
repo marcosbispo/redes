@@ -1,0 +1,17 @@
+      Instituto Federal de Educação, Ciência e Tecnologia da Bahia
+Campus Jequié
+Curso Técnico de Informática
+Profº. Ramon Fontes
+Aluno: Marcos Bispo
+                            Camada de Transporte
+
+1. Qual a camada que representa a camada de transporte no modelo TCP/IP?
+
+(x ) Camada 3 
+2. Qual a PDU da camada de transporte? 
+
+(x ) Segmento
+3. Quais os principais protocolos da camada de transporte?
+ ( x)TCP 
+
+
