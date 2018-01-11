@@ -1,0 +1,28 @@
+ Instituto Federal de Educação, Ciência e Tecnologia da Bahia
+Campus Jequié
+Curso Técnico de Informática
+Profº. Ramon Fontes
+Aluno:Marcos Bispo
+
+                          Wireshark
+
+Exercìcio-01
+a-131.247.92.200
+b-Está ocrrendo uma conversação com o envio de pacotes
+c- O frame 06 envia um pacote para o frame 07
+e- O frame 09 detectou o pacote segmentado e o frame 10 confirmou e recostruiu o pacote
+f- Está confirmado o recebimento da mensagem
+g- Ocorre devido o pacote ter sido segmentado sendo preciso recostuir
+h- O envio dos pacotes segmentados sendo enviado desfragmentados
+i- Os pacotes foram entregues e todos desfragmentados em imagem
+j- Esta acessando uma página web
+Exercício 02. 
+a- 131.247.95.216
+216.109.117.109 e 216.109.117.106
+b- dois
+c- o inicio de outra conversação. sim
+d- porque não entendeu o pacote
+e- porque o pacote foi satisfatorio completo
+f- não podem ser lidos ou vistos
+Exercício 03.
+a-
