@@ -1,0 +1,28 @@
+Nome: Marcos Bispo
+Disciplina: Redes II      Professor: Ramon Fontes
+
+
+                                                              COMANDOS LINUX
+                                                                ATIVIDADES
+
+
+QUESTÃO: 1 comando→  pwd
+Diretorio:/home/marcos/
+QUESTÃO: 2 comandos →mkdir  my_test → cd my_test→ mkdir my_work
+cd ..→ mkdir job1→cd job1→  mkdir task1
+QUESTÃO: 3 comandos→ cd my_test→ cd my_work
+QUESTÃO: 4 comandos→ nano→ ctrlc ctrl v no conteudo; nomeia o arquivo numbers.txt
+QUESTÃO: 5 comandos→ nano depois ctrl r, ctrl o e renomear os arquivo
+QUESTÃO: 6 comandos→ cp numbers.txt numbers1.txt my_test/job1/task1/
+QUESTÃO: 7 comandos→ cd my_test/job1/task1→ ls -l
+-rw-rw-r--  1 marcos 20 Abr 7 23:31 numbers.txt
+-rw-rw-r--  1 marcos 18 Abr 7 23:31 numbers1.txt
+QUESTÃO: 8 comandos→ chmod 755 numbers.txt
+QUESTÃO: 9 comandos→ chmod 644 numbers1.txt
+QUESTÃO: 10 comandos→ cp -r my_test/job1/task1 /home/marcos/
+QUESTÃO: 11 comandos→ mv my_work  my_work1
+QUESTÃO: 12 comandos→ rm -r task1
+QUESTÃO: 13 comandos→ ls /bin→ ctrl c na lista
+nano  ctrl v ctrl o nomeia o aquivo: listabin.txt
+QUESTÃO: 14 comando→ clear
+QUESTÃO: 15 comando→ ls -la
